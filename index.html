@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./c7e5bc85-f640-4be9-aecd-f853e0cadb81.js"></script>
+    <title>Sample Page</title>
+</head>
+<body>
+    <button class="interact-button">Click Me</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const button = document.querySelector(".interact-button");
+            if (button) {
+                button.addEventListener("click", () => {
+                    alert("Button clicked!");
+                });
+            }
+        });
+    </script>
+</body>
+</html>
